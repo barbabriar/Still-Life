@@ -9,3 +9,13 @@
     height:20px;
     background-color: rgb(242, 224, 206);
 }
+
+#jar{
+    width:250px;
+    height:375px;
+    background-color: rgb(220, 212, 211);
+    border-radius:0px 0px 75px 75px;
+    /* clockwise starting from top */
+    /* margin:20px,40px,30px,20px; */
+    /* margin:1,2,3,4; */
+}
