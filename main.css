@@ -1,21 +1,129 @@
-#orange-book{
+body{
+    background-color: rgb(252, 245, 245);
+}
+
+#book{
+    position:absolute;
+    top:450px;
+    left:775px;
     width:180px;
     height:250px;
-    background-color: rgb(237, 101, 38);
+    background-color: #ed6526;
+    z-index: 3;
+    transform:rotate3d(-1,1,-1,20deg);
 }
 
 #book-top{
+    position:relative;
     width:180px;
     height:20px;
     background-color: rgb(242, 224, 206);
 }
 
 #jar{
+    position:absolute;
+    top:300px;
+    left:550px;
     width:250px;
     height:375px;
-    background-color: rgb(220, 212, 211);
+    background-color: rgba(220, 212, 211, 0.3);
     border-radius:0px 0px 75px 75px;
     /* clockwise starting from top */
     /* margin:20px,40px,30px,20px; */
     /* margin:1,2,3,4; */
 }
+
+#flower{
+    position:absolute;
+    top:100px;
+    left:600px;
+    transform:rotate(10deg);
+    /* background-color: yellow; */
+    width:180px;
+    height:550px;
+}
+
+.flower-petal{
+    position:absolute;
+    /* top:5px;
+    left:115px; */
+    background-color: rgb(244, 135, 119);
+    border-radius: 50%;
+    border:5px, white,dashed;
+    width:50px;
+    height:100px;
+}
+
+#first{
+    position:absolute;
+    top:0px;
+    left:115px;
+    background-color: rgb(244, 135, 119);
+    border-radius: 50%;
+    border:5px, white,dashed;
+    width:50px;
+    height:100px;
+    transform: rotate(-20deg);    
+    z-index: 1;
+}
+
+#second{
+    position:absolute;
+    top:0px;
+    left:75px;
+    background-color: rgb(244, 135, 119);
+    border-radius: 50%;
+    border:5px, white,dashed;
+    width:50px;
+    height:100px;
+    transform: rotate(20deg);   
+    z-index: 2; 
+}
+
+#third{
+    position:absolute;
+    top:-20px;
+    left:50px;
+    background-color: rgb(244, 135, 119);
+    border-radius: 50%;
+    border:5px, white,dashed;
+    width:50px;
+    height:100px;
+    transform: rotate(60deg);    
+}
+
+#fourth{
+    position:absolute;
+    top:-20px;
+    left:135px;
+    background-color: rgb(244, 135, 119);
+    border-radius: 50%;
+    border:5px, white,dashed;
+    width:50px;
+    height:100px;
+    transform: rotate(-60deg);    
+}
+
+#flower-stem{
+    position: relative;
+    top:0px;
+    left:125px;
+    background-color: rgb(90, 129, 33);
+    width:10px;
+    height:550px;
+}
+
+
+
+/* #jar-side{
+    position:absolute;
+    top:300px;
+    left:550px;
+    width:250px;
+    height:400px;
+    background-color: rgba(220, 212, 211, 0.3);
+    border-radius:90px 90px 75px 75px;
+    /* clockwise starting from top */
+    /* margin:20px,40px,30px,20px; */
+    /* margin:1,2,3,4; */
+/* } */ 
